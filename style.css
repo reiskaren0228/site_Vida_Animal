@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  max-width: 100px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #ec6313;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #ec6313;
+}
+
+#intro {
+  text-align: center;
+}
+
+.imgLogo img {
+  max-width: 100%;
+  height: auto;
+}
+
+#linksImportantes nav a {
+  margin: 10px;
+  color: #ec6313;
+  text-decoration: none;
+}
+
+#linksImportantes nav a:hover {
+  text-decoration: underline;
+}
+
+.tabelaAnimal {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.tabelaAnimal th,
+.tabelaAnimal td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tabelaAnimal th {
+  background-color: #ec6313;
+  color: white;
+}
+
+.tabelaAnimal tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+aside figcaption img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+section nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+section nav ul li {
+  margin: 5px 0;
+}
+
+#buttonIndex {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#buttonIndex button {
+  background-color: #ec6313;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#buttonIndex button a {
+  color: white;
+  text-decoration: none;
+}
+
+#buttonIndex button:hover {
+  background-color: #cc4d00;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+footer nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 10px 0 0;
+}
