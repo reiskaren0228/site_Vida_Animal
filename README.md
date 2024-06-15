@@ -4,6 +4,10 @@
 
 Este é um projeto de site estático desenvolvido como parte do curso de Fullstack da SoulCode. O TimePets é um site dedicado à qualidade de vida de animais domésticos, oferecendo informações sobre expectativa de vida de diferentes espécies de animais, serviços disponíveis e produtos recomendados para o cuidado e bem-estar dos pets.
 
+## Site:
+
+- Visite meu site ([TimePets](https://reiskaren0228.github.io/site_Vida_Animal/))
+
 ## Tecnologias Utilizadas
 
 - HTML5
